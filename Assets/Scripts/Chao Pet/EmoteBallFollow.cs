@@ -31,7 +31,7 @@ namespace Chao_Pet
 
         private void Update()
         {
-            // grab "isMoving" from the MovementLogicScript
+            // grab "isMoving" from the MovementLogicScript.
             var isMoving = movementScript.isMoving;
 
             // grab the raw Facing, but override to Down if we're idle
