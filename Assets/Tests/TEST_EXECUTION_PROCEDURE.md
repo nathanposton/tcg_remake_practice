@@ -142,3 +142,26 @@ bash ./run_tests.sh --outdir ./MyLogs --list-failures
 - The script intentionally omits `-quit` for `-runTests` calls to avoid premature exit on some Unity versions.
 - Results are parsed via `xmllint` when available, otherwise via grep fallbacks.
 - Manual UI runs store XML in the Unity default path; the script copies this into `TestLogs/` as a fallback when needed.
+
+## Platform and Environment Notes
+
+- Unity version: ensure 6000.1.13f1 is installed.
+- macOS:
+  - Unity path typically `/Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/MacOS/Unity`.
+  - The script can gracefully quit Unity via AppleScript.
+- Linux:
+  - Common paths: `$HOME/Unity/Hub/Editor/6000.1.13f1/Editor/Unity`, `/opt/unity/Editor/Unity`, or `unity-editor` in PATH.
+  - The script adds `-nographics` automatically for headless runs; override with `--no-nographics`.
+
+You can always provide the path explicitly:
+
+```bash
+bash ./run_tests.sh --unity-path "/absolute/path/to/Unity" --list-failures
+```
+
+## CI Enablement (GitHub Actions)
+
+A workflow is provided at `.github/workflows/unity-tests.yml` using `game-ci/unity-test-runner`.
+
+- Add repository secret `UNITY_LICENSE` to enable headless activation.
+- The job runs both EditMode and PlayMode, capturing artifacts into `TestLogs/`.

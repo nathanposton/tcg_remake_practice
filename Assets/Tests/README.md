@@ -93,3 +93,16 @@ This test suite is designed to integrate with CI/CD pipelines:
 - Run individual tests to isolate issues
 - Check Unity Console for detailed error messages
 - Verify test scene setup matches expectations
+
+## Scripted Execution
+
+For automated, headless runs use the root script:
+
+```bash
+bash ./run_tests.sh --list-failures
+# If Unity is not auto-detected on your platform:
+bash ./run_tests.sh --unity-path "/path/to/Unity" --list-failures
+```
+
+- On Linux the script adds `-nographics` by default; disable with `--no-nographics` if needed.
+- Outputs land in `TestLogs/` with `latest_*.{xml,log}` symlinks for convenience.

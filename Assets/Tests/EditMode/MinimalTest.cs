@@ -12,6 +12,7 @@ public class MinimalTest
     }
     
     [Test]
+    [Ignore("Intentionally failing sample test; enable locally for failure-path validation")]
     public void SimpleTest_ShouldFail()
     {
         Debug.Log("[TEST] MinimalTest_ShouldFail - Starting");
