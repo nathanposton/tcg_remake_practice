@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Failed(Child)" total="6" passed="3" failed="3" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:07Z" duration="4.7063888">
+  <test-suite type="TestSuite" id="1015" name="tcg_remake_practice" fullname="tcg_remake_practice" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:07Z" duration="4.706389" total="6" passed="3" failed="3" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1009" name="TinyChaoGarden.PlayModeTests.dll" fullname="/Users/nposton/tcg_remake_practice/Library/ScriptAssemblies/TinyChaoGarden.PlayModeTests.dll" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:07Z" duration="4.698805" total="6" passed="3" failed="3" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="67555" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1010" name="Tests" fullname="Tests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:07Z" duration="4.695179" total="6" passed="3" failed="3" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1011" name="PlayMode" fullname="Tests.PlayMode" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:07Z" duration="4.692000" total="6" passed="3" failed="3" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1005" name="GardenMovementTests" fullname="Tests.PlayMode.GardenMovementTests" classname="Tests.PlayMode.GardenMovementTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:05Z" duration="2.415530" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1008" name="EmoteBall_FollowsChao" fullname="Tests.PlayMode.GardenMovementTests.EmoteBall_FollowsChao" methodname="EmoteBall_FollowsChao" classname="Tests.PlayMode.GardenMovementTests" runstate="Runnable" seed="1329963993" result="Passed" start-time="2025-08-09 17:13:02Z" end-time="2025-08-09 17:13:04Z" duration="1.301220" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[TEST] Setting up Garden test - Loading Garden
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Garden setup complete - MovementScript found: True
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Starting EmoteBall_FollowsChao test
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] EmoteBall_FollowsChao test PASSED - Ball moved: 2.000755
+Parameter 'facing' does not exist.
+]]></output>
+            </test-case>
+            <test-case id="1006" name="Garden_LoadsCorrectly" fullname="Tests.PlayMode.GardenMovementTests.Garden_LoadsCorrectly" methodname="Garden_LoadsCorrectly" classname="Tests.PlayMode.GardenMovementTests" runstate="Runnable" seed="424929451" result="Passed" start-time="2025-08-09 17:13:04Z" end-time="2025-08-09 17:13:04Z" duration="0.253431" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[TEST] Setting up Garden test - Loading Garden
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Garden setup complete - MovementScript found: True
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Starting Garden_LoadsCorrectly test
+[TEST] Garden_LoadsCorrectly test PASSED
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+]]></output>
+            </test-case>
+            <test-case id="1007" name="Movement_RespondsToInput" fullname="Tests.PlayMode.GardenMovementTests.Movement_RespondsToInput" methodname="Movement_RespondsToInput" classname="Tests.PlayMode.GardenMovementTests" runstate="Runnable" seed="1144681286" result="Passed" start-time="2025-08-09 17:13:04Z" end-time="2025-08-09 17:13:05Z" duration="0.851805" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[TEST] Setting up Garden test - Loading Garden
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Garden setup complete - MovementScript found: True
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Starting Movement_RespondsToInput test
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+Parameter 'facing' does not exist.
+[TEST] Movement_RespondsToInput test PASSED - Distance moved: 0.4999997
+Parameter 'facing' does not exist.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1001" name="SceneAndMovementTests" fullname="Tests.PlayMode.SceneAndMovementTests" classname="Tests.PlayMode.SceneAndMovementTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2025-08-09 17:13:05Z" end-time="2025-08-09 17:13:07Z" duration="2.270685" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <output><![CDATA[Parameter 'facing' does not exist.
+]]></output>
+            <test-case id="1004" name="BlinkingComponent_AnimatesCorrectly" fullname="Tests.PlayMode.SceneAndMovementTests.BlinkingComponent_AnimatesCorrectly" methodname="BlinkingComponent_AnimatesCorrectly" classname="Tests.PlayMode.SceneAndMovementTests" runstate="Runnable" seed="336364301" result="Failed" start-time="2025-08-09 17:13:05Z" end-time="2025-08-09 17:13:06Z" duration="1.761841" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Alpha should change during blink animation
+  Expected: not equal to 1.0f
+  But was:  1.0f
+]]></message>
+                <stack-trace><![CDATA[at Tests.PlayMode.SceneAndMovementTests+<BlinkingComponent_AnimatesCorrectly>d__5.MoveNext () [0x000ab] in /Users/nposton/tcg_remake_practice/Assets/Tests/PlayMode/SceneAndMovementTests.cs:100
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in ./Library/PackageCache/com.unity.test-framework@7056e7f856e9/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[TEST] Setting up test - Loading StartScreen
+Parameter 'facing' does not exist.
+[TEST] Setup complete - StartScreen loaded
+[TEST] Starting BlinkingComponent_AnimatesCorrectly test
+]]></output>
+            </test-case>
+            <test-case id="1003" name="PressStart_TransitionsToGarden" fullname="Tests.PlayMode.SceneAndMovementTests.PressStart_TransitionsToGarden" methodname="PressStart_TransitionsToGarden" classname="Tests.PlayMode.SceneAndMovementTests" runstate="Runnable" seed="933181980" result="Failed" start-time="2025-08-09 17:13:06Z" end-time="2025-08-09 17:13:07Z" duration="0.254785" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  PressStartScript not found
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Tests.PlayMode.SceneAndMovementTests+<PressStart_TransitionsToGarden>d__4.MoveNext () [0x00047] in /Users/nposton/tcg_remake_practice/Assets/Tests/PlayMode/SceneAndMovementTests.cs:59
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in ./Library/PackageCache/com.unity.test-framework@7056e7f856e9/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[TEST] Setting up test - Loading StartScreen
+[TEST] Setup complete - StartScreen loaded
+[TEST] Starting PressStart_TransitionsToGarden test
+]]></output>
+            </test-case>
+            <test-case id="1002" name="StartScreen_LoadsCorrectly" fullname="Tests.PlayMode.SceneAndMovementTests.StartScreen_LoadsCorrectly" methodname="StartScreen_LoadsCorrectly" classname="Tests.PlayMode.SceneAndMovementTests" runstate="Runnable" seed="826932440" result="Failed" start-time="2025-08-09 17:13:07Z" end-time="2025-08-09 17:13:07Z" duration="0.249751" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  PressStartScript should be present in StartScreen
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Tests.PlayMode.SceneAndMovementTests+<StartScreen_LoadsCorrectly>d__3.MoveNext () [0x00071] in /Users/nposton/tcg_remake_practice/Assets/Tests/PlayMode/SceneAndMovementTests.cs:44
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in ./Library/PackageCache/com.unity.test-framework@7056e7f856e9/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[TEST] Setting up test - Loading StartScreen
+[TEST] Setup complete - StartScreen loaded
+[TEST] Starting StartScreen_LoadsCorrectly test
+Saving results to: /Users/nposton/Library/Application Support/DefaultCompany/tcg_remake_practice/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

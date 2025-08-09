@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.0218444">
+  <test-suite type="TestSuite" id="1000" name="tcg_remake_practice" fullname="tcg_remake_practice" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.021844" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1008" name="TinyChaoGarden.EditModeTests.dll" fullname="/Users/nposton/tcg_remake_practice/Library/ScriptAssemblies/TinyChaoGarden.EditModeTests.dll" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.018888" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="98736" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="BaselineTests" fullname="BaselineTests" classname="BaselineTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.017059" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1002" name="ChaoStats_DefaultInitialization_SetsCorrectValues" fullname="BaselineTests.ChaoStats_DefaultInitialization_SetsCorrectValues" methodname="ChaoStats_DefaultInitialization_SetsCorrectValues" classname="BaselineTests" runstate="Runnable" seed="663441425" result="Passed" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.006957" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[[TEST] Starting ChaoStats_DefaultInitialization_SetsCorrectValues test
+[TEST] ChaoStats_DefaultInitialization_SetsCorrectValues test PASSED
+]]></output>
+        </test-case>
+        <test-case id="1003" name="ChaoStats_StatBoundaries_EnforcesLimits" fullname="BaselineTests.ChaoStats_StatBoundaries_EnforcesLimits" methodname="ChaoStats_StatBoundaries_EnforcesLimits" classname="BaselineTests" runstate="Runnable" seed="721562886" result="Failed" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.002475" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Swim stat should be between 0-99
+  Expected: True
+  But was:  False
+]]></message>
+            <stack-trace><![CDATA[at BaselineTests.ChaoStats_StatBoundaries_EnforcesLimits () [0x0002e] in /Users/nposton/tcg_remake_practice/Assets/Tests/EditMode/BaselineTests.cs:47
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[[TEST] Starting ChaoStats_StatBoundaries_EnforcesLimits test
+]]></output>
+        </test-case>
+        <test-case id="1004" name="SaveSystem_SaveAndLoad_PreservesChaoData" fullname="BaselineTests.SaveSystem_SaveAndLoad_PreservesChaoData" methodname="SaveSystem_SaveAndLoad_PreservesChaoData" classname="BaselineTests" runstate="Runnable" seed="912575714" result="Passed" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.002527" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[[TEST] Starting SaveSystem_SaveAndLoad_PreservesChaoData test
+[TEST] SaveSystem_SaveAndLoad_PreservesChaoData test PASSED
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1005" name="MinimalTest" fullname="MinimalTest" classname="MinimalTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.001259" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1007" name="SimpleTest_ShouldFail" fullname="MinimalTest.SimpleTest_ShouldFail" methodname="SimpleTest_ShouldFail" classname="MinimalTest" runstate="Runnable" seed="906393659" result="Failed" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.000336" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  This test should always fail
+  Expected: True
+  But was:  False
+]]></message>
+            <stack-trace><![CDATA[at MinimalTest.SimpleTest_ShouldFail () [0x0000a] in /Users/nposton/tcg_remake_practice/Assets/Tests/EditMode/MinimalTest.cs:18
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[[TEST] MinimalTest_ShouldFail - Starting
+]]></output>
+        </test-case>
+        <test-case id="1006" name="SimpleTest_ShouldPass" fullname="MinimalTest.SimpleTest_ShouldPass" methodname="SimpleTest_ShouldPass" classname="MinimalTest" runstate="Runnable" seed="1901619840" result="Passed" start-time="2025-08-09 18:11:46Z" end-time="2025-08-09 18:11:46Z" duration="0.000437" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[[TEST] MinimalTest_ShouldPass - Starting
+[TEST] MinimalTest_ShouldPass - PASSED
+Saving results to: /Users/nposton/Library/Application Support/DefaultCompany/tcg_remake_practice/TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
